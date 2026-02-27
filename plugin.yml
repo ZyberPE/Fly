@@ -1,0 +1,15 @@
+name: Fly
+main: Fly\Main
+version: 1.0.0
+api: 5.0.0
+author: ZyberPE
+
+commands:
+  fly:
+    description: Toggle flight mode
+    usage: "/fly on/off"
+    permission: fly.use
+
+permissions:
+  fly.use:
+    default: op
